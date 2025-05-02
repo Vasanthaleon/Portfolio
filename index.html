@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <title> Personal | Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <a href="#"><span class="logo nav__logo">V</span> Vasantha Kumar</a>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact" class="btn">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn__large">Contact</a>
+    </nav>
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="DSC_3602.JPG" alt="header" />
+      </div>
+      <div class="header__content">
+        <div>
+          <h1 style="font-size: 90px;">Vasantha Kumar</h1>
+            <h1 style="font-size: 90px;">Python Full-Stack<br>Developer</h1>
+        </div>
+        <p class="section__description">
+          Aspiring Python Full-Stack Developer with strong foundation in web technologies and database management, 
+          seeking a challenging role in a dynamic company to apply and grow my skills in real-world projects.
+        </p>
+        <div class="header__btn">
+          <button class="btn">Hire Me Now</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="bg.png" alt="bg" class="about__bg-1" />
+        <img src="bg.png" alt="bg" class="about__bg-2" />
+        <img src="323686586_211737497899519_6027286101300358778_n.webp.jpeg" alt="about" class="about__img" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Bit About Me</h2>
+        <p class="section__description">
+          I am a passionate and dedicated fresher full-stack developer with a strong foundation in Python programming. 
+          With a Bachelor’s degree in Business Administration BBA, I bring a unique blend of technical skills and business 
+          acumen to my work. <span>I have successfully completed a short-term course in Python and Full-Stack Development</span>, 
+          equipping me with expertise in front-end and back-end technologies, along with problem-solving and coding 
+          proficiency.
+        </p>
+        <div class="about__btn">
+          <button class="btn">Download CV</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container service__container" id="service">
+      <h2 class="section__header">My Best Services</h2>
+      <div class="service__grid">
+        <div class="service__card">
+          <span><i class="fas fa-briefcase"></i></span>
+          <h4>Portfolio</h4>
+          <p>
+            Designed and developed a responsive personal portfolio website using HTML, CSS, and JavaScript to showcase my skills, services, and projects as a Python Full-Stack Developer. 
+            Included interactive sections like About Me, Services, Portfolio, Contact Form, and Tech Stack for a professional user experience.
+          </p>
+        </div>
+        <div class="service__card" >
+          <span> <a href="https://vasanthaleon.github.io/Partake-Website/" > <i class="ri-window-fill"></i></span>
+          <h4>Website Design</h4>
+          <p>
+            I designed and developed a responsive e-commerce-style product showcase website using HTML, CSS, 
+            Bootstrap, featuring product displays, banners, allergen-free messages, testimonials, and a Marvel 
+            collaboration. This project highlights my expertise in clean front-end layouts and marketing-focused design.
+          </p>
+        </div></a>
+        <div class="service__card">
+          <span> <a href="https://vasanthaleon.github.io/Fornichar-Website/"><i class="ri-store-line"></i></span>
+          <h4>E-commerce Solutions</h4>
+          <p>
+            Created a modern furniture e-commerce website using HTML, CSS and Bootstrap with a clean, responsive 
+            layout featuring product listings, banners, testimonials, and a newsletter. Focused on user-friendly navigation 
+            and visual appeal to enhance front-end development skills.
+          </p>
+        </div></a>
+        
+      </div>
+    </section>
+
+    <div class="MyStack">
+      <h1>My Stack</h1>
+    </div>
+
+     <section id="marquee">
+  <div class="container">
+    <div class="pic-container">
+
+            <div class="pic"><img src="skill-icons_html.png" alt="Image 1"></div>
+            <div class="pic"><img src="skill-icons_css.png" alt="Image 2"></div>
+            <div class="pic"><img src="devicon_bootstrap.png" alt="Image 3"></div>
+            <div class="pic"><img src="skill-icons_javascript.png" alt="Image 4"></div>
+            <div class="pic"><img src="devicon_python.png" alt="Image 5"></div>
+            <div class="pic"><img src="skill-icons_django.png" alt="Image 6"></div>
+            <div class="pic"><img src="skill-icons_mysql-dark.png" alt="Image 7"></div>
+            <div class="pic"><img src="skill-icons_github-dark.png" alt="Image 3"></div>
+          </div>
+      </div>
+    </section>
+
+
+         
+
+    <div class="contact__from__heading">
+      <h1>Contact Me</h1>
+    </div>
+
+    <section>
+
+      <div class="row-1">
+        <div class="col-1">
+          <form>
+            <label for="Your name">Your Name</label><br>
+            <input type="name">
+            
+            <label for="Your Email">Your Email</label>
+            <input type="email" id="email" aria-describedby="emailhelp">
+
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" id="exampleInputPassword1">
+
+            <button class="btn" style="margin-top: 30px;">Submit</button>
+          </form>
+        </div>
+
+        <div class="col-2">
+          <img src="10-Contact-Form-Experimental-Glitch-Design-by-danielix-removebg-preview.png" alt="">
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <section class="section__container contact__container" id="contact">
+      <div class="logo">V</div>
+      <h2 class="section__header">Let's Talk With Me!</h2>
+      <p class="section__description">
+        An open invitation to connect, and exploring collaborative opportunities
+        on my personal portfolio website.
+      </p>
+      <div class="contact__socials">
+        <a href="https://www.linkedin.com/in/vasantha-kumar-k"><i class="ri-linkedin-fill"></i></a>
+        <a href="https://github.com/Vasanthaleon"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/invites/contact/?igsh=z5kdubosu0h&utm_content=ag602uf"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://wa.me/qr/QUXVTJZCOKK7A1"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#"><i class="ri-pinterest-line"></i></a>
+      </div>
+    </section>
+    <footer class="footer">
+      Copyright © 2025 Web Design Vasantha Kumar. All rights reserved.
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
